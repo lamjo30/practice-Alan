@@ -13,10 +13,13 @@ import Buy from './components/Buy.vue';
 
       <nav class="row justify-content-start w-0">
         <div class="col-2">
-          <RouterLink to="/">Home</RouterLink>
+          <RouterLink class="fw-bolder" to="/">Home</RouterLink>
+        </div>
+        <div class="col-2 me-4">
+          <RouterLink class="fw-bolder" to="/products">Productos</RouterLink>
         </div>
         <div class="col-2 me-5">
-          <RouterLink to="/products">Productos</RouterLink>
+          <RouterLink class="fw-bolder" to="/buscador">Buscador</RouterLink>
         </div>
         <div class="col-2">
           <Buy/>
@@ -51,12 +54,12 @@ nav a.router-link-exact-active {
 }
 
 nav a.router-link-exact-active:hover {
-  background-color: transparent;
+  color: beige;
 }
 
 nav a {
   display: inline-block;
-  padding: 0 1rem;
+  padding: 0;
   border-left: 1px solid var(--color-border);
 }
 
