@@ -15,6 +15,9 @@ import Buy from './components/Buy.vue';
         <div class="col-2">
           <RouterLink class="fw-bolder" to="/">Home</RouterLink>
         </div>
+        <div class="col-2 me-5">
+          <RouterLink class="fw-bolder" to="/about">Select</RouterLink>
+        </div>
         <div class="col-2 me-4">
           <RouterLink class="fw-bolder" to="/products">Productos</RouterLink>
         </div>
